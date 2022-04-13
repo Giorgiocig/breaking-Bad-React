@@ -1,0 +1,11 @@
+.heroImg__container {
+  position: relative;
+}
+
+.hero__text {
+  position: absolute;
+  width: 30%;
+  top: 50%;
+  left: 15%;
+  color: white;
+}

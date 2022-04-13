@@ -1,0 +1,9 @@
+.logo {
+  width: 25%;
+  max-width: 8rem;
+  min-width: 7rem;
+}
+
+.nav__item {
+  padding: 0 1em;
+}
