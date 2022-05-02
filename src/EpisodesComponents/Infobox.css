@@ -1,0 +1,22 @@
+.textEp {
+  font-size: 0.65rem;
+  color: rgb(0, 0, 0);
+}
+
+.margin-right {
+  margin: 0 2em 0 0;
+}
+
+.info {
+  margin: 0 auto;
+  bottom: 0;
+  width: 60rem;
+}
+
+.paddingTitle {
+  padding-bottom: 2em;
+}
+
+.textTable {
+  margin: 0 0 0.3em 0;
+}
