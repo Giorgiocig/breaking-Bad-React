@@ -1,0 +1,14 @@
+.btnSel {
+  background-color: #396447;
+  color: white;
+  transition: 250ms ease-in-out;
+  border: 1px black solid;
+  padding: 3em 5em;
+  font-size: 1.5rem;
+}
+
+.btnSel:hover {
+  color: #396447;
+  background-color: white;
+  transform: translateY(-2px);
+}
