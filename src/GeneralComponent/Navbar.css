@@ -1,0 +1,21 @@
+.logo {
+  width: 25%;
+  max-width: 8rem;
+  min-width: 7rem;
+  cursor: pointer;
+}
+
+.nav__item {
+  padding: 0 1em;
+}
+
+li a.active {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
