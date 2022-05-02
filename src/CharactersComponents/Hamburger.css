@@ -1,0 +1,15 @@
+.hamburger {
+  top: 0;
+  right: 5%;
+  color: white;
+}
+
+.hamburger-icon {
+  font-size: 2rem;
+  transition: 250ms ease-in-out;
+}
+
+.hamburger-icon:hover {
+  cursor: pointer;
+  transform: translateX(-2px);
+}

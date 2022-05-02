@@ -1,0 +1,10 @@
+.infobox {
+  bottom: 22%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.321);
+  width: 100%;
+}
+
+.infobox-listItem {
+  padding: 0.25em 0;
+}

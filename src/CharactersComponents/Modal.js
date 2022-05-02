@@ -3,8 +3,8 @@ import { useFetch } from "../hooks/useFetch";
 
 import "./Modal.css";
 
-export default function Modal({ name, surname, jr }) {
-  const { data, error, isPending } = useFetch(
+export default function Modal({ name, surname }) {
+  const { data } = useFetch(
     `https://www.breakingbadapi.com/api/quote/random?author=${name}+${surname}`
   );
 
