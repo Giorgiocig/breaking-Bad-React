@@ -1,5 +1,6 @@
 import React from "react";
-import Header from "../HomeComponents/Header";
+import Header from "../GeneralComponent/Header";
+import Footer from "../HomeComponents/Footer";
 import Hero from "../HomeComponents/Hero";
 import Icons from "../HomeComponents/Icons";
 import Selector from "../HomeComponents/Selector";
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Icons />
       <Selector />
+      <Footer />
     </div>
   );
 }

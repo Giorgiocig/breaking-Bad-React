@@ -1,16 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "../CharactersComponents/Card";
 import { useFetch } from "../hooks/useFetch";
-import Modal from "../CharactersComponents/Modal";
+
+import Search from "../CharactersComponents/Search";
+import Header from "../GeneralComponent/Header";
 
 export default function Characters() {
+  const [query, setQuery] = useState("");
   const { data, error, isPending } = useFetch(
-    "https://www.breakingbadapi.com/api/characters"
+    `https://www.breakingbadapi.com/api/characters?name=${query}`
   );
 
   return (
     <div>
-      <Modal />
+      <Header />
+      <Search getQuery={(q) => setQuery(q)} />
       <div>
         <h1 className="title">Characters</h1>
         {isPending && (
@@ -39,6 +43,10 @@ export default function Characters() {
                   name={el.name}
                   photo={el.img}
                   status={el.status}
+                  nickname={el.nickname}
+                  appearance={el.appearance}
+                  occupation={el.occupation}
+                  birthday={el.birthday}
                 />
               );
             })}
